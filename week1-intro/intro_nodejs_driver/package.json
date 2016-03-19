@@ -1,0 +1,11 @@
+{
+  "name": "intro_nodejs_driver",
+  "version": "0.0.0",
+  "description": "npm introduction",
+  "main": "app.js",
+  "dependencies": {
+    "mongodb": "~2.1.3"
+  },
+  "author": "Shaun Verch",
+  "license": "BSD"
+}
