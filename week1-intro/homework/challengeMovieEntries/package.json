@@ -1,0 +1,15 @@
+{
+  "name": "Challenge_Problem_Movie_Entries",
+  "version": "0.1.0",
+  "description": "Using the MongoDB driver with Post request to insert a movie into MongoDB",
+  "main": "app.js",
+  "dependencies": {
+    "consolidate": "~0.13.1",
+    "express": "~4.13.3",
+    "body-parser": "~1.14.2",
+    "mongodb": "~2.1.3",
+    "nunjucks": "~2.2.0"
+  },
+  "author": "Randy Davis",
+  "license": "0BSD"
+}

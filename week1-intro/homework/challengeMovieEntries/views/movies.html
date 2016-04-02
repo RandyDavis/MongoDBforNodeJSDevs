@@ -1,0 +1,22 @@
+<head>
+    <style>
+        body {
+            font-family: "Century Gothic", 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie List</h1>
+    <ul>
+        {% for movie in movies %}
+            <li><a href="http://www.imdb.com/title/{{ movie.imdb }}">{{ movie.title }}, {{ movie.year }}</a></li>
+        {% else %}
+            <li>No movies found.</li>
+        {% endfor %}
+    </ul>
+    <hr>
+    <form action="/movies" method="post">
+        <h2>Add A Movie</h2>
+        {% for movie in
+    </form>
+</body>
